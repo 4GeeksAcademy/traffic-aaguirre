@@ -14,7 +14,8 @@
     padding-top: 10px;
 }
 
-.semaforo{
+.semaforo
+{
     width: 100px;
     background-color: black;
     padding: 10px;
@@ -63,4 +64,17 @@
 }
 .yellow{
     background: rgb(252, 252, 125);
+}
+
+.nuevo{
+    background: purple;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
