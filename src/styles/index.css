@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    background: black;
+    display: inline-block;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+.palo{
+    background: black;
+    width: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+
+.light{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+.red.activo{
+    background: red;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.yellow.activo{
+    background: yellow;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.green.activo{
+    background: green;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
