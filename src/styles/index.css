@@ -10,27 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contenedor{
+    padding-top: 10px;
+}
+
 .semaforo{
-    background: black;
-    display: inline-block;
-    margin: auto;
-    padding: 15px;
+    width: 100px;
+    background-color: black;
+    padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 .palo{
-    background: black;
-    width: 10px;
-    height: 100px;
-    align-items: center;
+    margin: auto;
+    width: 25px;
+    height: 90px;
+    
+    
+    background-color: black;
+    
 }
 
 
 .light{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: gray;
+   
 }
 
 .red.activo{
@@ -44,4 +54,13 @@
 .green.activo{
     background: green;
     box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.red{
+    background: rgb(251, 83, 83);
+}
+.green{
+    background: rgb(102, 242, 102);
+}
+.yellow{
+    background: rgb(252, 252, 125);
 }
