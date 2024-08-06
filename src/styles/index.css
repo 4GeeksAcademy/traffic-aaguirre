@@ -12,6 +12,12 @@
 */
 .contenedor{
     padding-top: 10px;
+    background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2021/06/mejores-viajes-carretera-mundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center;
+     width: 100%;
+     height: 100vh
 }
 
 .semaforo
@@ -57,17 +63,21 @@
     box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .red{
-    background: rgb(251, 83, 83);
+    background: rgb(241, 18, 18);
 }
 .green{
-    background: rgb(102, 242, 102);
+    background: rgb(19, 200, 19);
 }
 .yellow{
-    background: rgb(252, 252, 125);
+    background: rgb(248, 248, 16);
 }
 
-.nuevo{
+.purple{
     background: purple;
+}
+.purple.activo{
+    background:rgb(38, 2, 38);
+    box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 button{
@@ -75,6 +85,8 @@ button{
     height: 50px;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: start;
     margin-top: 20px;
+    background: rgb(249, 234, 234);
+    border-radius: 10px;
 }
